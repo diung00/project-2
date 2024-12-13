@@ -25,7 +25,7 @@ public class BoardController {
     public String readAll(Model model){
         model.addAttribute("boards", service.readAll());
 
-        return "boards/home";
+        return "boards/index";
 
     }
 
